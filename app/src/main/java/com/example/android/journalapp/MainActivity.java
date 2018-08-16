@@ -27,6 +27,9 @@ import android.widget.Toast;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 
+import java.text.SimpleDateFormat;
+import java.time.format.DateTimeFormatter;
+import java.util.Date;
 import java.util.List;
 
 public class MainActivity extends AppCompatActivity implements RecyclerViewClickListener {
@@ -125,9 +128,9 @@ public class MainActivity extends AppCompatActivity implements RecyclerViewClick
 
     //helper method that returns string of current date in clean formart
     public String currentDate() {
-        Time today = new Time(Time.getCurrentTimezone());
-        today.setToNow();
-        String dateString = today.monthDay + "/" + today.month+1 + "/" + today.year + " at " + today.format("%k:%M");
+        SimpleDateFormat dtf = new SimpleDateFormat("dd/MM/yyyy HH:mm");
+        Date date = new Date();
+        String dateString = dtf.format(date);
 
         return dateString;
     }
@@ -172,6 +175,7 @@ public class MainActivity extends AppCompatActivity implements RecyclerViewClick
         int id = currentEntity.getId();
         final String mainText = currentEntity.getText();
         String dateCreated = currentEntity.getDate_added();
+
         AlertDialog.Builder mBuilder = new AlertDialog.Builder(MainActivity.this);
         View mView = getLayoutInflater().inflate(R.layout.details_dialog, null);
         TextView mTextView = (TextView)mView.findViewById(R.id.main_text);

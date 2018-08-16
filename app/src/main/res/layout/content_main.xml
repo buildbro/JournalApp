@@ -21,6 +21,6 @@
         android:layout_height="match_parent"
         android:gravity="center"
         android:visibility="gone"
-        android:text="No joural yet" />
+        android:text="No journal yet! Tap on the pink pen icon to get started" />
 
 </android.support.constraint.ConstraintLayout>

@@ -43,7 +43,8 @@ public class DiaryRepository {
         }
     }
 
-
+	
+	//stuffs for deletion
     public void delete (DiaryEntity diaryEntity) {
         new deleteAsyncTask(mDiaryDao).execute(diaryEntity);
     }
@@ -64,6 +65,7 @@ public class DiaryRepository {
         }
     }
 
+	//stuffs for update
     public void update (DiaryEntity diaryEntity) {
         new updateAsyncTask(mDiaryDao).execute(diaryEntity);
     }
