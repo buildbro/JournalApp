@@ -1,4 +1,4 @@
-package com.example.android.journalapp;
+package com.buildbrothers.android.journalapp;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

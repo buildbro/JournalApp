@@ -51,6 +51,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginRight="6dp"
+                    android:paddingBottom="6dp"
+                    android:paddingTop="6dp"
                     android:src="@drawable/ic_clock_grey600_18dp" />
 
                 <TextView

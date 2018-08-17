@@ -1,4 +1,4 @@
-package com.example.android.journalapp;
+package com.buildbrothers.android.journalapp;
 
 import android.arch.lifecycle.Observer;
 import android.arch.lifecycle.ViewModelProviders;

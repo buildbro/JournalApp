@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:gravity="center_vertical|center_horizontal"
     android:orientation="vertical"
-    tools:context="com.example.android.journalapp.AccountActivity">
+    tools:context="com.buildbrothers.android.journalapp.AccountActivity">
 
     <com.google.android.gms.common.SignInButton
         android:id="@+id/sign_in_button"

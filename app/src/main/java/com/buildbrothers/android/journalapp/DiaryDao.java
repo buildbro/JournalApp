@@ -1,4 +1,4 @@
-package com.example.android.journalapp;
+package com.buildbrothers.android.journalapp;
 
 import android.arch.lifecycle.LiveData;
 import android.arch.persistence.room.Dao;

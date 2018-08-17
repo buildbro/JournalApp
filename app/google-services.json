@@ -10,7 +10,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:228607035431:android:8910afb0cb59d336",
         "android_client_info": {
-          "package_name": "com.example.android.journalapp"
+          "package_name": "com.buildbrothers.android.journalapp"
         }
       },
       "oauth_client": [
@@ -18,7 +18,7 @@
           "client_id": "228607035431-jsba5cmbm3e5uros5scj1fjhgasdhmpa.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.example.android.journalapp",
+            "package_name": "com.buildbrothers.android.journalapp",
             "certificate_hash": "7b127d591a6b6023bec1e3807727df83f1081d6e"
           }
         },

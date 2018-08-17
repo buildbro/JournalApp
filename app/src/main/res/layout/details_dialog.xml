@@ -31,7 +31,7 @@
             </LinearLayout>
         </ScrollView> -->
 
-        <com.example.android.journalapp.ScrollViewWithMaxHeight
+        <com.buildbrothers.android.journalapp.ScrollViewWithMaxHeight
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:maxHeight="300dp">
@@ -48,7 +48,7 @@
                     />
 
             </LinearLayout>
-        </com.example.android.journalapp.ScrollViewWithMaxHeight>
+        </com.buildbrothers.android.journalapp.ScrollViewWithMaxHeight>
     </LinearLayout>
 
     <View

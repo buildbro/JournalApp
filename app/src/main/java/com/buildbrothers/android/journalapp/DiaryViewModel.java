@@ -1,4 +1,4 @@
-package com.example.android.journalapp;
+package com.buildbrothers.android.journalapp;
 
 import android.app.Application;
 import android.arch.lifecycle.AndroidViewModel;
